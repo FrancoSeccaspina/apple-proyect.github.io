@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.negro{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+}
+
+img{
+    width: 20%;
+    margin: auto;
+}
+
+.barraBusqueda{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-right: 4%;
+}
+
+.barraBusqueda a{
+    text-decoration: none;
+}
+
+.barraBusqueda li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.barraBusqueda li:hover{
+    color: blue;
+}
+
+.contenedor-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primer-contenedor{
+    background-image: url('../Images/iphone-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 2rem
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 55%;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 1px 2px 1px black;
+    text-shadow: 1px 2px 1px black;
+}
+
+.text{
+    width: 20%;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.junto{
+    display: flex;
+    width: 132%;
+}
+
+.gris{
+    color: rgb(194, 194, 194);
+    font-weight: 700;
+}
+
+.blue{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;  
+}
+
+.blue i{
+   font-size: 12px;
+   margin-top: 2%;
+}
+
+.segundo-contenedor{
+    background-image: url('../Images/iphone-14pro.jpg');
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.title-color{
+    color:white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 1px 2px 1px white;
+    text-shadow: 1px 2px 1px white;
+}
+
+.text-color{
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.tercer-contenedor{
+    background-image: url('../Images/watch-serie8.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 99%;
+    width: 100%;
+}
+
+.red{
+    color: red;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 2px 1px rgb(78, 3, 3);
+    text-shadow: 1px 2px 1px rgb(78, 3, 3);
+}
+
+.contenedorDoble{
+    width: 100%;
+    display: flex;
+    padding: 0.8rem;
+    gap: 0.5rem;
+}
+
+.ipadFondo{
+    background-image: url('../Images/ipad.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 99%;
+    width: 50%;
+    height: 60vh;
+}
+
+.Title{
+    color:black;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 2px 1px black;
+    padding-bottom: 0.5rem;
+}
+
+.black{
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+}
+
+.Blue{
+    display: flex;
+    gap: 0.2rem;
+    width: 21%;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.Blue i{
+    font-size: 12px;
+   margin-top: 2%;
+}
+
+.MackPro{
+    background-image: url('../Images/mackbookPro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 99%;
+    width: 50%;
+    height: 60vh;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px white;
+    text-shadow: 1px 2px 1px white;
+    padding-bottom: 0.5rem;
+}
+
+.Black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 2px 1px black;
+}
+
+.Gris{
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(220, 220, 220);
+}
+
+.Azul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    gap: 0.2rem;
+}
+
+.Azul i{
+    color: blue;
+    font-size: 12px;
+    margin-top: 0.3%;
+}
+
+.MackMini{
+    background-image: url('../Images/macMini.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 99%;
+    width: 50%;
+    height: 60vh;
+}
+
+.AirPodsPro{
+    background-image: url('../Images/airporsPro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 99%;
+    width: 50%;
+    height: 60vh;
+}
+
+
+.WatchUltra{
+    background-image: url('../Images/watchUltra.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 99%;
+    width: 50%;
+    height: 60vh;
+}
+
+.watch-Ultra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.T-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 2px 1px black;
+    padding-bottom: 0.5rem;
+}
+
+.naranja{
+    color: orange;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(255, 123, 0);
+    text-shadow: 1px 1px 1px rgb(255, 123, 0);
+    padding-bottom: 0.5rem;
+}
+
+.B-black{
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+}
+
+.ipadPro{
+    background-image: url('../Images/ipad-Pro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 99%;
+    width: 50%;
+    height: 60vh;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 25vh;
+}
+
+.negrita{
+    color: black;
+    font-weight: bolder;
+    text-decoration: 3px underline black;
+    padding: 0.2rem;
+}
+
+.descubre, .cuenta, .apple, .entretenimiento dd{
+    color: black;
+    font-weight: 600;
+}
+
+dd:hover{
+    color: blue;
+    text-decoration: 1.5px underline blue;
+    cursor: pointer;
+}
+
+.BLACK{
+    width: 100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:375px){
+
+    .barraBusqueda {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: space-between;
+        padding: 3.5rem;
+    }
+
+    img{
+        width: 70%;
+    }
+
+    .contenido{
+        margin: auto;
+    }
+
+    .title{
+        margin-top: -10%;
+        margin-bottom: 40%;
+    }
+
+    .text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .junto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .consulta{
+        color: white;
+       text-align: center;
+       text-shadow: 1px 1px 1px black;
+       text-shadow: 1px 1px 1px black;
+    }
+
+    .blue{
+        width: 50%;
+    }
+
+    .title-color{
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-color{
+        font-size: 1.5rem;
+    }
+
+    .contenedorDoble{
+        display: flex;
+        flex-direction: column;
+        padding: 0.1rem;
+    }
+    
+    .ipadFondo, .MackPro, .MackMini, .AirPodsPro, .WatchUltra, .ipadPro{
+        width: 100%;
+    }
+
+    .Title, .black{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Blue{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Black{
+        width: 57%;
+        display: flex;
+       margin: auto;
+    }
+
+    .Azul{
+        margin-top: 62%;
+    }
+
+    footer {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .descubre, .cuenta, .apple, .entretenimiento{
+        display: flex;
+        width: 44%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    dd{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:375px){
+
+    .blue {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .Black {
+        width: 97%;
+        display: flex;
+        margin: auto;
+    }
+
+    .Azul {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .barraBusqueda {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: center;
+        padding: 3.5rem;
+    }
+
+    .title {
+        margin-top: -3%;
+        margin-bottom: 40%;
+    }
+
+    .blue {
+        width: 26%;
+        padding: 1rem;
+    }
+
+    .Azul {
+        margin-top: 30%;
+    }
+
+    img {
+        width: 40%;
+    }    
+
+    .barraBusqueda {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: center;
+        padding: 2.5rem;
+    }
+
+    .title-color {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Blue {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .blue {
+        width: 18%;
+        padding: 1rem;
+    }
+    
+    .text-color {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .Azul {
+        margin-top: 4%;
+        padding: 3rem;
+    }
+}
+
+@media screen and (min-width:1440px){
+
+    .text{
+        width: auto;
+    }
+
+    .barraBusqueda {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: space-around;
+        padding: 2.5rem;
+    }
+
+    .title {
+        margin-top: -3%;
+        margin-bottom: 27%;
+    }
+    
+    .blue {
+        width: 14%;
+        padding: 1rem;
+    }
+
+    .title-color {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 13%;
+        display: flex;
+        justify-content: center;
+    }
+    .T-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        margin-top: -5%;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-shadow: 2px 2px 1px black;
+        text-shadow: 1px 2px 1px black;
+        padding-bottom: 0.5rem;
+    }
+
+    .Azul {
+        margin-top: 18%;
+        padding: 3rem;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        margin: auto;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+}   
